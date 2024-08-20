@@ -182,7 +182,7 @@
         </div>
       </section>
       <!------------------------------ main section--------------------- -->
-      <section class="my-20 border-rd bg-mainBg p-16">
+      <section class="my-20 bg-mainBg p-16">
         <!-- main sections's heading------ -->
         <header class="text-center max-w-[736px] mx-auto">
           <h2 class="text-[40px] font-extrabold ralway uppercase mb-3">
@@ -196,20 +196,24 @@
 
         <main>
           <!-------------------sections selecting tickets  -------- -->
-          <section class="flex  mt-20 bg-white">
+          <section class="flex mt-20 bg-white max-w-6xl mx-auto">
             <!-- left item -->
-            <div class="flex-1 border-r-2 border-dashed border-green p-5 pr-16 relative">
+            <div
+              class="flex-1 border-r-2 border-dashed border-green p-5 pr-16 relative"
+            >
               <!-- left top -->
-              <div class="flex  items-center justify-between my-5">
+              <div class="flex items-center justify-between my-5">
                 <div class="flex gap-2 items-center justify-center">
                   <img src="../images/bus-logo.png" alt="" />
                   <div>
-                    <h2 class="text-2xl	 font-bold">Geenline Paribahan</h2>
-                    <p class="text-gray"> Coach-009-WEB ! AC_Business</p>
+                    <h2 class="text-2xl font-bold">Geenline Paribahan</h2>
+                    <p class="text-gray">Coach-009-WEB ! AC_Business</p>
                   </div>
                 </div>
 
-                <div  class="flex items-center justify-center gap-2 bg-[#1DD10026] p-4 text-green rounded-xl">
+                <div
+                  class="flex items-center justify-center gap-2 bg-[#1DD10026] p-4 text-green rounded-xl"
+                >
                   <span>
                     <img src="../images/seat-green-filled.png" alt="" />
                   </span>
@@ -217,47 +221,510 @@
                 </div>
               </div>
               <!-- left buttom -->
-              <div class="bg-mainBg flex flex-col gap-3 p-5 rounded-xl ">  
-                  <div class="flex items-center justify-between border-b border-dashed border-bordergray py-4">
-                    <p class="text-gray">Route</p>
-                    <p class="text-lg font-bold">Dhaka-Sylhet</p>
-                  </div>
-                  <div class="flex items-center justify-between border-b border-dashed border-bordergray py-4">
-                    <p class="text-gray">Departure  time</p>
-                    <p class="text-lg font-bold">9:00 pm</p>
-                  </div>
-                  <div class="flex items-center justify-between">
-                    <p class="p-3 bg-[#0307120D] rounded-lg">Boarding poing -laxmipur  </p>
-                    <p class="p-3 bg-[#0307120D] rounded-lg">Droping Point - Bogura</p>
-                    <p class="p-3 bg-[#0307120D] rounded-lg">Est. Time - 11 Hour</p>
-                    
-                   
-                   
-                  </div>
-
+              <div class="bg-mainBg flex flex-col gap-3 p-5 rounded-xl">
+                <div
+                  class="flex items-center justify-between border-b border-dashed border-bordergray py-4"
+                >
+                  <p class="text-gray">Route</p>
+                  <p class="text-lg font-bold">Dhaka-Sylhet</p>
+                </div>
+                <div
+                  class="flex items-center justify-between border-b border-dashed border-bordergray py-4"
+                >
+                  <p class="text-gray">Departure time</p>
+                  <p class="text-lg font-bold">9:00 pm</p>
+                </div>
+                <div class="flex items-center justify-between mt-10">
+                  <p class="p-3 bg-[#0307120D] rounded-lg">
+                    Boarding poing -laxmipur
+                  </p>
+                  <p class="p-3 bg-[#0307120D] rounded-lg">
+                    Droping Point - Bogura
+                  </p>
+                  <p class="p-3 bg-[#0307120D] rounded-lg">
+                    Est. Time - 11 Hour
+                  </p>
+                </div>
               </div>
 
-              <div class="bg-mainBg w-16 h-16 rounded-full absolute -top-8 -right-8">
-              </div>
-              <div class="bg-mainBg w-16 h-16 rounded-full absolute -bottom-8 -right-8 ">
-              </div>
-
+              <div
+                class="bg-mainBg w-16 h-16 rounded-full absolute -top-8 -right-8"
+              ></div>
+              <div
+                class="bg-mainBg w-16 h-16 rounded-full absolute -bottom-8 -right-8"
+              ></div>
             </div>
 
             <!-- right item  -->
-            <div
-              class="flex flex-col items-center justify-center p-16"
-            >
+            <div class="flex flex-col items-center justify-center p-16">
               <img src="../images/fare.png" alt="" />
               <h2 class="text-3xl font-bold ralway">550 taka</h2>
               <p>per seat</p>
-            </div>  
+            </div>
+          </section>
 
+          <!-- sections  selecting seats  -->
+          <section class="mt-20 max-w-6xl mx-auto bg-white">
+            <div class="flex items-stretch justify-center p-6">
+              <!-- left  -->
+              <div
+                class="md:w-3/5 border-r-2 border-bordergray border-dashed pr-8"
+              >
+                <h2
+                  class="text-2xl ralway font-semibold pb-6 border-b-2 border-dashed border-bordergray capitalize"
+                >
+                  select your seat
+                </h2>
+                <div
+                  class="flex items-center justify-between py-5 border-b-2 border-dashed border-bordergray"
+                >
+                  <!-- left -->
+                  <div class="flex items-center justify-center gap-2">
+                    <img src="../images/seat-gray.png" alt="" />
+                    <p class="inter text-lg text-gray">Available</p>
+                  </div>
+                  <!-- right -->
+                  <div class="flex items-center justify-center gap-2">
+                    <img src="../images/seat-green-filled.png" alt="" />
+                    <p class="inter text-green text-lg">selected</p>
+                  </div>
+                </div>
+                <div class="flex justify-end py-6">
+                  <img
+                    class="py-3 px-10 bg-[#0307121A] rounded-xl"
+                    src="../images/stearing.svg"
+                    alt=""
+                  />
+                </div>
 
+                <!--  the cars layout  for tickets  -->
+                <div>
+                  <!-- A -->
+                  <div class="flex items-center justify-between mt-10">
+                    <span class="inter text-kbd_size px-3 text-gray"> A</span>
+                    <div class="flex items-center justify-between flex-1">
+                      <div>
+                        <kbd
+                          class="kbd bg-kbd_bg border-none py-4 px-11 text-kbd_size text-gray"
+                          >A1</kbd
+                        >
+                        <kbd
+                          class="kbd bg-kbd_bg border-none py-4 px-11 ms-8 text-kbd_size text-gray"
+                          >A2</kbd
+                        >
+                      </div>
+                      <div class="ms-16">
+                        <kbd
+                          class="kbd bg-kbd_bg border-none py-4 px-11 text-kbd_size text-gray"
+                          >A3</kbd
+                        >
+                        <kbd
+                          class="kbd bg-kbd_bg border-none py-4 px-11 ms-8 text-kbd_size text-gray"
+                          >A4</kbd
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <!-- B -->
+                  <div class="flex items-center justify-between mt-10">
+                    <span class="inter text-kbd_size px-3 text-gray"> B</span>
+                    <div class="flex items-center justify-between flex-1">
+                      <div>
+                        <kbd
+                          class="kbd bg-kbd_bg border-none py-4 px-11 text-kbd_size text-gray"
+                          >B1</kbd
+                        >
+                        <kbd
+                          class="kbd bg-kbd_bg border-none py-4 px-11 ms-8 text-kbd_size text-gray"
+                          >B2</kbd
+                        >
+                      </div>
+                      <div class="ms-16">
+                        <kbd
+                          class="kbd bg-kbd_bg border-none py-4 px-11 text-kbd_size text-gray"
+                          >B3</kbd
+                        >
+                        <kbd
+                          class="kbd bg-kbd_bg border-none py-4 px-11 ms-8 text-kbd_size text-gray"
+                          >B4</kbd
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <!-- C -->
+                  <div class="flex items-center justify-between mt-10">
+                    <span class="inter text-kbd_size px-3 text-gray"> C</span>
+                    <div class="flex items-center justify-between flex-1">
+                      <div>
+                        <kbd
+                          class="kbd bg-kbd_bg border-none py-4 px-11 text-kbd_size text-gray"
+                          >C1</kbd
+                        >
+                        <kbd
+                          class="kbd bg-kbd_bg border-none py-4 px-11 ms-8 text-kbd_size text-gray"
+                          >C2</kbd
+                        >
+                      </div>
+                      <div class="ms-16">
+                        <kbd
+                          class="kbd bg-kbd_bg border-none py-4 px-11 text-kbd_size text-gray"
+                          >C3</kbd
+                        >
+                        <kbd
+                          class="kbd bg-kbd_bg border-none py-4 px-11 ms-8 text-kbd_size text-gray"
+                          >C4</kbd
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <!-- D -->
+                  <div class="flex items-center justify-between mt-10">
+                    <span class="inter text-kbd_size px-3 text-gray"> D</span>
+                    <div class="flex items-center justify-between flex-1">
+                      <div>
+                        <kbd
+                          class="kbd bg-kbd_bg border-none py-4 px-11 text-kbd_size text-gray"
+                          >D1</kbd
+                        >
+                        <kbd
+                          class="kbd bg-kbd_bg border-none py-4 px-11 ms-8 text-kbd_size text-gray"
+                          >D2</kbd
+                        >
+                      </div>
+                      <div class="ms-16">
+                        <kbd
+                          class="kbd bg-kbd_bg border-none py-4 px-11 text-kbd_size text-gray"
+                          >D3</kbd
+                        >
+                        <kbd
+                          class="kbd bg-kbd_bg border-none py-4 px-11 ms-8 text-kbd_size text-gray"
+                          >D4</kbd
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <!-- E -->
+                  <div class="flex items-center justify-between mt-10">
+                    <span class="inter text-kbd_size px-3 text-gray"> E</span>
+                    <div class="flex items-center justify-between flex-1">
+                      <div>
+                        <kbd
+                          class="kbd bg-kbd_bg border-none py-4 px-11 text-kbd_size text-gray"
+                          >E1</kbd
+                        >
+                        <kbd
+                          class="kbd bg-kbd_bg border-none py-4 px-11 ms-8 text-kbd_size text-gray"
+                          >E2</kbd
+                        >
+                      </div>
+                      <div class="ms-16">
+                        <kbd
+                          class="kbd bg-kbd_bg border-none py-4 px-11 text-kbd_size text-gray"
+                          >E3</kbd
+                        >
+                        <kbd
+                          class="kbd bg-kbd_bg border-none py-4 px-11 ms-8 text-kbd_size text-gray"
+                          >E4</kbd
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <!-- F -->
+                  <div class="flex items-center justify-between mt-10">
+                    <span class="inter text-kbd_size px-3 text-gray"> F</span>
+                    <div class="flex items-center justify-between flex-1">
+                      <div>
+                        <kbd
+                          class="kbd bg-kbd_bg border-none py-4 px-11 text-kbd_size text-gray"
+                          >F1</kbd
+                        >
+                        <kbd
+                          class="kbd bg-kbd_bg border-none py-4 px-11 ms-8 text-kbd_size text-gray"
+                          >F2</kbd
+                        >
+                      </div>
+                      <div class="ms-16">
+                        <kbd
+                          class="kbd bg-kbd_bg border-none py-4 px-11 text-kbd_size text-gray"
+                          >F3</kbd
+                        >
+                        <kbd
+                          class="kbd bg-kbd_bg border-none py-4 px-11 ms-8 text-kbd_size text-gray"
+                          >F4</kbd
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <!-- G -->
+                  <div class="flex items-center justify-between mt-10">
+                    <span class="inter text-kbd_size px-3 text-gray"> G</span>
+                    <div class="flex items-center justify-between flex-1">
+                      <div>
+                        <kbd
+                          class="kbd bg-kbd_bg border-none py-4 px-11 text-kbd_size text-gray"
+                          >G1</kbd
+                        >
+                        <kbd
+                          class="kbd bg-kbd_bg border-none py-4 px-11 ms-8 text-kbd_size text-gray"
+                          >G2</kbd
+                        >
+                      </div>
+                      <div class="ms-16">
+                        <kbd
+                          class="kbd bg-kbd_bg border-none py-4 px-11 text-kbd_size text-gray"
+                          >G3</kbd
+                        >
+                        <kbd
+                          class="kbd bg-kbd_bg border-none py-4 px-11 ms-8 text-kbd_size text-gray"
+                          >G4</kbd
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <!-- H -->
+                  <div class="flex items-center justify-between mt-10">
+                    <span class="inter text-kbd_size px-3 text-gray"> H</span>
+                    <div class="flex items-center justify-between flex-1">
+                      <div>
+                        <kbd
+                          class="kbd bg-kbd_bg border-none py-4 px-11 text-kbd_size text-gray"
+                          >H1</kbd
+                        >
+                        <kbd
+                          class="kbd bg-kbd_bg border-none py-4 px-11 ms-8 text-kbd_size text-gray"
+                          >H2</kbd
+                        >
+                      </div>
+                      <div class="ms-16">
+                        <kbd
+                          class="kbd bg-kbd_bg border-none py-4 px-11 text-kbd_size text-gray"
+                          >H3</kbd
+                        >
+                        <kbd
+                          class="kbd bg-kbd_bg border-none py-4 px-11 ms-8 text-kbd_size text-gray"
+                          >H4</kbd
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <!-- I -->
+                  <div class="flex items-center justify-between mt-10">
+                    <span class="inter text-kbd_size px-3 text-gray"> I</span>
+                    <div class="flex items-center justify-between flex-1">
+                      <div>
+                        <kbd
+                          class="kbd bg-kbd_bg border-none py-4 px-11 text-kbd_size text-gray"
+                          >I1</kbd
+                        >
+                        <kbd
+                          class="kbd bg-kbd_bg border-none py-4 px-11 ms-8 text-kbd_size text-gray"
+                          >I2</kbd
+                        >
+                      </div>
+                      <div class="ms-16">
+                        <kbd
+                          class="kbd bg-kbd_bg border-none py-4 px-11 text-kbd_size text-gray"
+                          >I3</kbd
+                        >
+                        <kbd
+                          class="kbd bg-kbd_bg border-none py-4 px-11 ms-8 text-kbd_size text-gray"
+                          >I4</kbd
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <!-- J -->
+                  <div class="flex items-center justify-between mt-10">
+                    <span class="inter text-kbd_size px-3 text-gray"> J</span>
+                    <div class="flex items-center justify-between flex-1">
+                      <div>
+                        <kbd
+                          class="kbd bg-kbd_bg border-none py-4 px-11 text-kbd_size text-gray"
+                          >J1</kbd
+                        >
+                        <kbd
+                          class="kbd bg-kbd_bg border-none py-4 px-11 ms-8 text-kbd_size text-gray"
+                          >J2</kbd
+                        >
+                      </div>
+                      <div class="ms-16">
+                        <kbd
+                          class="kbd bg-kbd_bg border-none py-4 px-11 text-kbd_size text-gray"
+                          >J3</kbd
+                        >
+                        <kbd
+                          class="kbd bg-kbd_bg border-none py-4 px-11 ms-8 text-kbd_size text-gray"
+                          >J4</kbd
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- right -->
+              <div class="md:w-2/5 px-8 py-6">
+                <h2
+                  class="text-2xl ralway font-semibold pb-6 border-b-2 border-dashed border-bordergray capitalize"
+                >
+                  select your seat
+                </h2>
 
+                <div class="p-5 mt-4 bg-mainBg rounded-xl">
+                  <div class="overflow-x-auto">
+                    <table class="table">
+                      <!-- head -->
+                      <thead class="text-base text-black">
+                        <tr>
+                          <th>Seats</th>
+                          <th>Type</th>
+                          <th>Price</th>
+                        </tr>
+                      </thead>
+                      <tbody>
+                        <!-- row 1 -->
+                        <tr>
+                          <td>A2</td>
+                          <td class="uppercase">classic</td>
+                          <td>500$</td>
+                        </tr>
+                        <!-- row 2 -->
+                        <tr>
+                          <td>A2</td>
+                          <td class="uppercase">classic</td>
+                          <td>500$</td>
+                        </tr>
+                        <!-- row 3 -->
+                        <tr>
+                          <td>A2</td>
+                          <td class="uppercase">classic</td>
+                          <td>500$</td>
+                        </tr>
+                      </tbody>
+                      <tfoot class="capitalize text-base text-black">
+                        <tr>
+                          <td></td>
+                          <td class="text-sm">total price</td>
+                          <td>1500 <span class="uppercase">BDT</span></td>
+                        </tr>
+                      </tfoot>
+                    </table>
+                  </div>
+                  <div class="input">
+                    <label class="flex items-center justify-center">
+                      <input
+                        type="text"
+                        class="text-sm"
+                        placeholder="have you any coupon"
+                      />
+                      <p class="">
+                        <span
+                          class="badge btn bg-green text-white hover:bg-green"
+                          >Submit</span
+                        >
+                      </p>
+                    </label>
+                  </div>
+                  <div
+                    class="flex items-center justify-between mt-5 p-2 text-base font-bold"
+                  >
+                    <h5 class="capitalize">Grand total</h5>
+                    <h5 class="uppercase">11500 bdt</h5>
+                  </div>
+                </div>
+                <!-- passenfger info form -->
+                <div class="my-5">
+                  <form>
+                    <div class="form-control">
+                      <label class="label">
+                        <span class="text-base">Passenger Name*</span>
+                      </label>
+                      <input
+                        type="text"
+                        placeholder="Enter your name"
+                        class="input input-bordered"
+                        required
+                      />
+                    </div>
+
+                    <div class="form-control">
+                      <label class="label">
+                        <span class="text-base">Phone Number*</span>
+                      </label>
+                      <input
+                        type="number"
+                        placeholder="Your phone Number"
+                        class="input input-bordered"
+                        required
+                      />
+                    </div>
+
+                    <div class="form-control">
+                      <label class="label">
+                        <span class="text-base">Email ID</span>
+                      </label>
+                      <input
+                        type="email"
+                        placeholder="Enter your email id"
+                        class="input input-bordered"
+                        required
+                      />
+                    </div>
+                    <div class="form-control mt-6">
+                      <button class="btn bg-green hover:bg-green text-white">
+                        Next
+                      </button>
+                      <div class="mt-5">
+                        <span class="link text-sm"> Terms and Conditions </span>
+                        <span class="link text-sm ms-4">
+                          Cancellation Policy
+                        </span>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div>
           </section>
         </main>
       </section>
     </main>
+
+    <footer class="bg-footer_bg">
+      <div class="max-w-6xl mx-auto md:py-[8rem] text-white">
+        <div class="flex items-center justify-between">
+          <div>
+            <h2 class="text-4xl font-bold ralway">TransitTix</h2>
+            <p class="inter mt-4 text-lg">
+              TransitTix is a digital platform to make your daily commuting
+              better
+            </p>
+          </div>
+
+          <div class="capitalize">
+            <h2 class="text-[20px] font-bold">download our app</h2>
+
+            <div class="btn bg-black text-white mt-2">
+              <div class="flex items-center justify-center gap-3">
+                <img src="../images/playstore.png" alt="" />
+                <div>
+                  <span class="uppercase">get it on </span> <br />
+                  <span class="text-xl font-bold">Google Play</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <hr class="border-b border-dashed border-white my-5" />
+        <div class="flex justify-between text-xs">
+          <span> @all rights reserved, TransitTix services limited.2024 </span>
+          <ul class="flex gap-5">
+            <li><a href="#">Terms & condition</a></li>
+            <li><a href="#">Return & refund policy</a></li>
+            <li><a href="#">Privacy policy</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+    <script src="../scripts/app.js"></script>
   </body>
 </html>

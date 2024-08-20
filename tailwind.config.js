@@ -8,12 +8,22 @@ module.exports = {
         gray: "#03071299",
         mainBg: "#F7F8F8",
         bordergray: "#03071233",
+        "kbd_bg": "#F7F8F8",
+        "kbd_color":"#002c3e",
+        "footer_bg":"#030712"
+        
       },
       wordSpacing: {
         wide: "10px",
         wider: "20px",
         widest: "30px",
       },
+      borderRadius: {
+        xl: "12px",
+      },
+      fontSize:{
+        "kbd_size":"18px"
+      }
     },
   },
   plugins: [
