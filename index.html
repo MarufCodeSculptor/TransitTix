@@ -595,7 +595,10 @@
                         <tr>
                           <td></td>
                           <td class="text-sm">total price</td>
-                          <td>1500 <span class="uppercase">BDT</span></td>
+                          <td>
+                            <span id="total-price">00</span>
+                            <span class="uppercase">BDT</span>
+                          </td>
                         </tr>
                       </tfoot>
                     </table>
@@ -603,23 +606,26 @@
                   <div class="input">
                     <label class="flex items-center justify-center">
                       <input
+                        id="coupon-input"
                         type="text"
                         class="text-sm"
                         placeholder="have you any coupon"
                       />
-                      <p class="">
-                        <span
-                          class="badge btn bg-green text-white hover:bg-green"
-                          >Submit</span
-                        >
-                      </p>
+
+                      <button
+                        id="coupon-button"
+                        disabled
+                        class="badge btn bg-green text-white hover:bg-green"
+                      >
+                        Submit
+                      </button>
                     </label>
                   </div>
                   <div
                     class="flex items-center justify-between mt-5 p-2 text-base font-bold"
                   >
                     <h5 class="capitalize">Grand total</h5>
-                    <h5 class="uppercase">11500 bdt</h5>
+                    <h5 class="uppercase">  <span id="grand-total">00</span>   bdt</h5>
                   </div>
                 </div>
                 <!-- passenfger info form -->
