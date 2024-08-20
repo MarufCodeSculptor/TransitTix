@@ -636,10 +636,12 @@
                         <span class="text-base">Passenger Name*</span>
                       </label>
                       <input
+                        id="input1"
                         type="text"
                         placeholder="Enter your name"
                         class="input input-bordered"
                         required
+                        oninput="checkInputs()"
                       />
                     </div>
 
@@ -648,10 +650,12 @@
                         <span class="text-base">Phone Number*</span>
                       </label>
                       <input
+                        id="input2"
                         type="number"
                         placeholder="Your phone Number"
                         class="input input-bordered"
                         required
+                        oninput="checkInputs()"
                       />
                     </div>
 
@@ -660,14 +664,16 @@
                         <span class="text-base">Email ID</span>
                       </label>
                       <input
+                        id="input3"
                         type="email"
                         placeholder="Enter your email id"
                         class="input input-bordered"
                         required
+                        oninput="checkInputs()"
                       />
                     </div>
                     <div class="form-control mt-6">
-                      <button class="btn bg-green hover:bg-green text-white">
+                      <button id="submitButton" disabled class="btn bg-green hover:bg-green text-white">
                         Next
                       </button>
                       <div class="mt-5">

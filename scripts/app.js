@@ -40,3 +40,17 @@ document.getElementById("coupon-button").addEventListener("click", () => {
     alert("no coupon found");
   }
 });
+
+function checkInputs() {
+  const input1 = document.getElementById("input1").value;
+  const input2 = document.getElementById("input2").value;
+  const input3 = document.getElementById("input3").value;
+  const submitButton = document.getElementById("submitButton");
+
+  // Enable the submit button if all inputs are filled
+  if (input1 && input2 && input3) {
+    submitButton.disabled = false;
+  } else {
+    submitButton.disabled = true;
+  }
+}
