@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>TransitTix</title>
-    <link rel="stylesheet" href="output.css" />
+    <link rel="stylesheet" href="src/output.css" />
   </head>
   <body>
     <header class="max-w-6xl mx-auto">
@@ -75,7 +75,9 @@
               the app. The integrated testing features allow for a streamlined
             </p>
             <div class="flex items-center justify-center">
-              <button class="btn bg-green text-white">Buy Tickets</button>
+              <a href="#buy-ticket" class="btn bg-green text-white"
+                >Buy Tickets</a
+              >
             </div>
           </div>
           <!-- cards container  -->
@@ -118,7 +120,7 @@
       </div>
     </header>
 
-    <main>
+    <main class="px-4">
       <!-- section best offer -->
       <section class="mt-32 max-w-6xl mx-auto">
         <div class="flex flex-col gap-5 items-center justify-center">
@@ -182,7 +184,10 @@
         </div>
       </section>
       <!------------------------------ main section--------------------- -->
-      <section class="my-20 bg-mainBg p-16">
+      <section
+        id="buy-ticket"
+        class="my-20 bg-mainBg p-16 border-t-4 border-green rounded-t-3xl"
+      >
         <!-- main sections's heading------ -->
         <header class="text-center max-w-[736px] mx-auto">
           <h2 class="text-[40px] font-extrabold ralway uppercase mb-3">
@@ -217,7 +222,10 @@
                   <span>
                     <img src="../images/seat-green-filled.png" alt="" />
                   </span>
-                  <span> 40 seats left </span>
+                  <span>
+                    <span id="total-seat" class="font-bold inter"> 40 </span>
+                    seats left
+                  </span>
                 </div>
               </div>
               <!-- left buttom -->
@@ -298,7 +306,7 @@
                 </div>
 
                 <!--  the cars layout  for tickets  -->
-                <div>
+                <div id="kbd-wrapper">
                   <!-- A -->
                   <div class="flex items-center justify-between mt-10">
                     <span class="inter text-kbd_size px-3 text-gray"> A</span>
@@ -580,25 +588,8 @@
                           <th>Price</th>
                         </tr>
                       </thead>
-                      <tbody>
-                        <!-- row 1 -->
-                        <tr>
-                          <td>A2</td>
-                          <td class="uppercase">classic</td>
-                          <td>500$</td>
-                        </tr>
-                        <!-- row 2 -->
-                        <tr>
-                          <td>A2</td>
-                          <td class="uppercase">classic</td>
-                          <td>500$</td>
-                        </tr>
-                        <!-- row 3 -->
-                        <tr>
-                          <td>A2</td>
-                          <td class="uppercase">classic</td>
-                          <td>500$</td>
-                        </tr>
+                      <tbody id="table-body">
+                        <!-- row will apear dynamicallly -->
                       </tbody>
                       <tfoot class="capitalize text-base text-black">
                         <tr>
@@ -725,6 +716,7 @@
         </div>
       </div>
     </footer>
-    <script src="../scripts/app.js"></script>
+    <script src="scripts/utilites.js"></script>
+    <script src="scripts/app.js"></script>
   </body>
 </html>
